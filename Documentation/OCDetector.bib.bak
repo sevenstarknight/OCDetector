@@ -1,0 +1,949 @@
+% Encoding: windows-1252
+
+
+@Article{altman1992introduction,
+  Title                    = {An introduction to kernel and nearest-neighbor nonparametric regression},
+  Author                   = {Altman, Naomi S},
+  Journal                  = {The American Statistician},
+  Year                     = {1992},
+  Number                   = {3},
+  Pages                    = {175--185},
+  Volume                   = {46},
+  Publisher                = {Taylor \& Francis}
+}
+
+@Article{Angeloni2014,
+  Title                    = {The VVV Templates Project Towards an automated classification of VVV light-curves-I. Building a database of stellar variability in the near-infrared},
+  Author                   = {Angeloni, R and Ramos, R Contreras and Catelan, M and D{\'e}k{\'a}ny, I and Gran, F and Alonso-Garc{\'\i}a, J and Hempel, M and Navarrete, C and Andrews, H and Aparicio, A and others},
+  Journal                  = {Astronomy \& Astrophysics},
+  Year                     = {2014},
+  Pages                    = {A100},
+  Volume                   = {567},
+  Publisher                = {EDP Sciences}
+}
+
+@Article{Barclay2011,
+  Title                    = {Stellar variability on time-scales of minutes: results from the first 5 yr of the Rapid Temporal Survey},
+  Author                   = {Barclay, Thomas and Ramsay, Gavin and Hakala, Pasi and Napiwotzki, Ralf and Nelemans, Gijs and Potter, Stephen and Todd, Ian},
+  Journal                  = {Monthly Notices of the Royal Astronomical Society},
+  Year                     = {2011},
+  Number                   = {4},
+  Pages                    = {2696--2708},
+  Volume                   = {413},
+  Publisher                = {Oxford University Press}
+}
+
+@Article{bellet2015metric,
+  Title                    = {Metric learning},
+  Author                   = {Bellet, Aur{\'e}lien and Habrard, Amaury and Sebban, Marc},
+  Journal                  = {Synthesis Lectures on Artificial Intelligence and Machine Learning},
+  Year                     = {2015},
+  Number                   = {1},
+  Pages                    = {1--151},
+  Volume                   = {9},
+  Publisher                = {Morgan \& Claypool Publishers}
+}
+
+@Article{Berry2012,
+  Title                    = {The Milky Way Tomography with Sloan Digital Sky Survey. IV. Dissecting Dust},
+  Author                   = {Berry, Michael and Ivezi{\'c}, {\v{Z}}eljko and Sesar, Branimir and Juri{\'c}, Mario and Schlafly, Edward F and Bellovary, Jillian and Finkbeiner, Douglas and Vrbanec, Dijana and Beers, Timothy C and Brooks, Keira J and others},
+  Journal                  = {The Astrophysical Journal},
+  Year                     = {2012},
+  Number                   = {2},
+  Pages                    = {166},
+  Volume                   = {757},
+  Publisher                = {IOP Publishing}
+}
+
+@InProceedings{beygelzimer2005weighted,
+  Title                    = {Weighted one-against-all},
+  Author                   = {Beygelzimer, Alina and Langford, John and Zadrozny, Bianca},
+  Booktitle                = {AAAI},
+  Year                     = {2005},
+  Pages                    = {720--725}
+}
+
+@Article{Blomme2011,
+  Title                    = {Improved methodology for the automated classification of periodic variable stars},
+  Author                   = {Blomme, Jonas and Sarro, LM and O'Donovan, FT and Debosscher, Jonas and Brown, T and Lopez, M and Dubath, P and Rimoldini, L and Charbonneau, D and Dunham, E and Mandushev,G. and Ciardi, D.R. and De Ridder, J. and Aerts C.},
+  Journal                  = {Monthly Notices of the Royal Astronomical Society},
+  Year                     = {2011},
+  Number                   = {1},
+  Pages                    = {96--106},
+  Volume                   = {418},
+  Publisher                = {Oxford University Press}
+}
+
+@InCollection{Bolos2014,
+  Title                    = {The Wavelet Scalogram in the Study of Time Series},
+  Author                   = {Bol{\'o}s, Vicente J and Ben{\'\i}tez, Rafael},
+  Booktitle                = {Advances in Differential Equations and Applications},
+  Publisher                = {Springer},
+  Year                     = {2014},
+  Pages                    = {147--154}
+}
+
+@Article{Bos2002,
+  Title                    = {Autoregressive spectral estimation by application of the Burg algorithm to irregularly sampled data},
+  Author                   = {Bos, Robert and de Waele, Stijn and Broersen, Piet MT},
+  Journal                  = {Instrumentation and Measurement, IEEE Transactions on},
+  Year                     = {2002},
+  Number                   = {6},
+  Pages                    = {1289--1294},
+  Volume                   = {51},
+  Publisher                = {IEEE}
+}
+
+@Book{Breiman1984,
+  Title                    = {Classification and regression trees},
+  Author                   = {Breiman, Leo and Friedman, Jerome and Stone, Charles J and Olshen, Richard A},
+  Publisher                = {CRC press},
+  Year                     = {1984}
+}
+
+@Article{Broersen2009,
+  Title                    = {Practical aspects of the spectral analysis of irregularly sampled data with time-series models},
+  Author                   = {Broersen, P. M.},
+  Journal                  = {IEEE Transactions on Instrumentation and Measurement},
+  Year                     = {2009},
+  Number                   = {5},
+  Pages                    = {1380-1388},
+  Volume                   = {58},
+  Owner                    = {514479},
+  Timestamp                = {2015.05.28}
+}
+
+@Article{Carliles2010,
+  Title                    = {Random forests for photometric redshifts},
+  Author                   = {Carliles, Samuel and Budav{\'a}ri, Tam{\'a}s and Heinis, S{\'e}bastien and Priebe, Carey and Szalay, Alexander S},
+  Journal                  = {The Astrophysical Journal},
+  Year                     = {2010},
+  Number                   = {1},
+  Pages                    = {511},
+  Volume                   = {712},
+  Publisher                = {IOP Publishing}
+}
+
+@Article{Chandola2009,
+  Title                    = {Anomaly detection: A survey},
+  Author                   = {Chandola, Varun and Banerjee, Arindam and Kumar, Vipin},
+  Journal                  = {ACM Computing Surveys (CSUR)},
+  Year                     = {2009},
+  Number                   = {3},
+  Pages                    = {15},
+  Volume                   = {41},
+  Publisher                = {ACM}
+}
+
+@Misc{Keogh2011,
+  Title                    = {The UCR Time Series Classification Archive},
+  Author                   = {Chen, Yanping and Keogh, Eamonn and Hu, Bing and Begum, Nurjahan and Bagnall, Anthony and Mueen, Abdullah and Batista, Gustavo},
+  Month                    = {July},
+  Note                     = {\url{www.cs.ucr.edu/~eamonn/time_series_data/}},
+  Year                     = {2015}
+}
+
+@Article{Deb2009,
+  Title                    = {Light curve analysis of variable stars using Fourier decomposition and principal component analysis},
+  Author                   = {Deb, S. and Singh, H. P.},
+  Journal                  = {Astronomy and Astrophysics},
+  Year                     = {2009},
+  Number                   = {3},
+  Pages                    = {1729-1737},
+  Volume                   = {507},
+  Owner                    = {514479},
+  Timestamp                = {2015.05.28}
+}
+
+@Article{Debosscher2009,
+  Title                    = {Automated Classification of variable stars: Application to the OGLE and CoRoT databases.},
+  Author                   = {Debosscher, Jonas},
+  Journal                  = {status: published},
+  Year                     = {2009}
+}
+
+@InProceedings{Djorgovski2012,
+  Title                    = {Flashes in a star stream: Automated classification of astronomical transient events},
+  Author                   = {Djorgovski, S George and Mahabal, AA and Donalek, Ciro and Graham, Matthew J and Drake, Andrew J and Moghaddam, Baback and Turmon, Mike},
+  Booktitle                = {E-Science (e-Science), 2012 IEEE 8th International Conference on},
+  Year                     = {2012},
+  Organization             = {IEEE},
+  Pages                    = {1--8}
+}
+
+@Article{Drake2009,
+  Title                    = {First results from the Catalina real-time transient survey},
+  Author                   = {Drake, AJ and Djorgovski, SG and Mahabal, A and Beshore, E and Larson, S and Graham, MJ and Williams, R and Christensen, E and Catelan, M and Boattini, A and others},
+  Journal                  = {The Astrophysical Journal},
+  Year                     = {2009},
+  Number                   = {1},
+  Pages                    = {870},
+  Volume                   = {696},
+  Publisher                = {IOP Publishing}
+}
+
+@Article{Dubath2011,
+  Title                    = {Random forest automated supervised classification of Hipparcos periodic variable stars},
+  Author                   = {Dubath, P and Rimoldini, L and S{\"u}veges, M and Blomme, Jonas and L{\'o}pez, M and Sarro, LM and De Ridder, Joris and Cuypers, J and Guy, L and Lecoeur, I and others},
+  Journal                  = {Monthly Notices of the Royal Astronomical Society},
+  Year                     = {2011},
+  Number                   = {3},
+  Pages                    = {2602--2617},
+  Volume                   = {414},
+  Publisher                = {Oxford University Press}
+}
+
+@Book{duda2012pattern,
+  Title                    = {Pattern classification},
+  Author                   = {Duda, Richard O and Hart, Peter E and Stork, David G},
+  Publisher                = {John Wiley \& Sons},
+  Year                     = {2012}
+}
+
+@Misc{Duin2007,
+  Title                    = {PRTools4.1, A Matlab Toolbox for Pattern Recognition,},
+  Author                   = {Duin,R.P.W. and Juszczak,P. and Paclik,P. and Pekalska,E. and de Ridder,D. and Tax,D.M.J. and Verzakov S.},
+  HowPublished             = {Delft University of Technology},
+  Year                     = {2007},
+  Owner                    = {514479},
+  Timestamp                = {2015.05.28}
+}
+
+@Article{Eyer2005,
+  Title                    = {Automated classification of variable stars for All-Sky Automated Survey 1--2 data},
+  Author                   = {Eyer, L and Blake, C},
+  Journal                  = {Monthly Notices of the Royal Astronomical Society},
+  Year                     = {2005},
+  Number                   = {1},
+  Pages                    = {30--38},
+  Volume                   = {358},
+  Publisher                = {Oxford University Press}
+}
+
+@Article{friedman1989flexible,
+  Title                    = {Flexible parsimonious smoothing and additive modeling},
+  Author                   = {Friedman, Jerome H and Silverman, Bernard W},
+  Journal                  = {Technometrics},
+  Year                     = {1989},
+  Number                   = {1},
+  Pages                    = {3--21},
+  Volume                   = {31},
+  Publisher                = {Taylor \& Francis}
+}
+
+@Article{Fu2011,
+  Title                    = {A review on time series data mining},
+  Author                   = {Fu, Tak-chung},
+  Journal                  = {Engineering Applications of Artificial Intelligence},
+  Year                     = {2011},
+  Number                   = {1},
+  Pages                    = {164--181},
+  Volume                   = {24},
+  Publisher                = {Elsevier}
+}
+
+@Article{Fulcher2013,
+  Title                    = {Highly comparative time-series analysis: the empirical structure of time series and their methods},
+  Author                   = {Fulcher, Ben D and Little, Max A and Jones, Nick S},
+  Journal                  = {Journal of The Royal Society Interface},
+  Year                     = {2013},
+  Number                   = {83},
+  Pages                    = {20130048},
+  Volume                   = {10},
+  Publisher                = {The Royal Society}
+}
+
+@Book{gagniuc2017markov,
+  Title                    = {Markov Chains: From Theory to Implementation and Experimentation},
+  Author                   = {Gagniuc, Paul A},
+  Publisher                = {John Wiley \& Sons},
+  Year                     = {2017}
+}
+
+@InProceedings{Ge2000,
+  Title                    = {Deformable Markov model templates for time-series pattern matching},
+  Author                   = {Ge, Xianping and Smyth, Padhraic},
+  Booktitle                = {Proceedings of the sixth ACM SIGKDD international conference on Knowledge discovery and data mining},
+  Year                     = {2000},
+  Organization             = {ACM},
+  Pages                    = {81--90}
+}
+
+@InCollection{Grabocka2012,
+  Title                    = {Invariant time-series classification},
+  Author                   = {Grabocka, Josif and Nanopoulos, Alexandros and Schmidt-Thieme, Lars},
+  Booktitle                = {Machine Learning and Knowledge Discovery in Databases},
+  Publisher                = {Springer},
+  Year                     = {2012},
+  Pages                    = {725--740}
+}
+
+@Article{Graham2013,
+  Title                    = {Machine-assisted discovery of relationships in astronomy},
+  Author                   = {Graham, Matthew J and Djorgovski, SG and Mahabal, Ashish A and Donalek, Ciro and Drake, Andrew J},
+  Journal                  = {Monthly Notices of the Royal Astronomical Society},
+  Year                     = {2013},
+  Number                   = {3},
+  Pages                    = {2371--2384},
+  Volume                   = {431},
+  Publisher                = {Oxford University Press}
+}
+
+@Article{graham2013comparison,
+  Title                    = {A comparison of period finding algorithms},
+  Author                   = {Graham, Matthew J and Drake, Andrew J and Djorgovski, SG and Mahabal, Ashish A and Donalek, Ciro and Duan, Victor and Maker, Allison},
+  Journal                  = {Monthly Notices of the Royal Astronomical Society},
+  Year                     = {2013},
+  Number                   = {4},
+  Pages                    = {3423--3444},
+  Volume                   = {434},
+  Publisher                = {Oxford University Press}
+}
+
+@InProceedings{Haber2015,
+  Title                    = {Discriminative Interpolation for Classification of Functional Data},
+  Author                   = {Haber, Rana
+and Rangarajan, Anand
+and Peter, Adrian M.},
+  Booktitle                = {Machine Learning and Knowledge Discovery in Databases},
+  Year                     = {2015},
+  Address                  = {Cham},
+  Pages                    = {20--36},
+  Publisher                = {Springer International Publishing},
+  Abstract                 = {The modus operandi for machine learning is to represent data as feature vectors and then proceed with training algorithms that seek to optimally partition the feature space {\$}{\$}S{\backslash}subset {\{}{\backslash}mathbb {\{}R{\}}{\}}^{\{}n{\}}{\$}{\$} into labeled regions. This holds true even when the original data are functional in nature, i.e. curves or surfaces that are inherently varying over a continuum such as time or space. Functional data are often reduced to summary statistics, locally-sensitive characteristics, and global signatures with the objective of building comprehensive feature vectors that uniquely characterize each function. The present work directly addresses representational issues of functional data for supervised learning. We propose a novel classification by discriminative interpolation (CDI) framework wherein functional data in the same class are adaptively reconstructed to be more similar to each other, while simultaneously repelling nearest neighbor functional data in other classes. Akin to other recent nearest-neighbor metric learning paradigms like stochastic k-neighborhood selection and large margin nearest neighbors, our technique uses class-specific representations which gerrymander similar functional data in an appropriate parameter space. Experimental validation on several time series datasets establish the proposed discriminative interpolation framework as competitive or better in comparison to recent state-of-the-art techniques which continue to rely on the standard feature vector representation.},
+  ISBN                     = {978-3-319-23528-8}
+}
+
+@Book{Hastie2009,
+  Title                    = {The elements of statistical learning},
+  Author                   = {Hastie, Trevor and Tibshirani, Robert and Friedman, Jerome},
+  Publisher                = {Springer},
+  Year                     = {2009}
+}
+
+@TechReport{Helfer2015,
+  Title                    = {Statistical Analysis of Functional Data, Technical Report TR-2015-05,},
+  Author                   = {Helfer, E. and Smith, B. Haber, R. and Peter, A.M.},
+  Institution              = {Florida Institute of Technology},
+  Year                     = {2015}
+}
+
+@Article{Huijse2011,
+  Title                    = {Period estimation in astronomical time series using slotted correntropy},
+  Author                   = {Huijse, Pablo and Est{\'e}vez, Pablo A and Zegers, Pablo and Pr{\'\i}ncipe, Jos{\'e} Carlos and Protopapas, Pavlos},
+  Journal                  = {Signal Processing Letters, IEEE},
+  Year                     = {2011},
+  Number                   = {6},
+  Pages                    = {371--374},
+  Volume                   = {18},
+  Publisher                = {IEEE}
+}
+
+@Article{Huijse2012,
+  Title                    = {An information theoretic algorithm for finding periodicities in stellar light curves},
+  Author                   = {Huijse, Pablo and Estevez, Pablo A and Protopapas, Pavlos and Zegers, Pablo and Principe, Jose C},
+  Journal                  = {Signal Processing, IEEE Transactions on},
+  Year                     = {2012},
+  Number                   = {10},
+  Pages                    = {5135--5145},
+  Volume                   = {60},
+  Publisher                = {IEEE}
+}
+
+@InProceedings{iverson1962programming,
+  Title                    = {A programming language},
+  Author                   = {Iverson, Kenneth E},
+  Booktitle                = {Proceedings of the May 1-3, 1962, spring joint computer conference},
+  Year                     = {1962},
+  Organization             = {ACM},
+  Pages                    = {345--351}
+}
+
+@Book{Johnson1992,
+  Title                    = {Applied multivariate statistical analysis},
+  Author                   = {Johnson, Richard Arnold and Wichern, Dean W and others},
+  Publisher                = {Prentice hall Englewood Cliffs, NJ},
+  Year                     = {1992},
+  Volume                   = {4}
+}
+
+@Article{johnston2017generation,
+  Title                    = {Generation of a supervised classification algorithm for time-series variable stars with an application to the LINEAR dataset},
+  Author                   = {Johnston, Kyle B and Oluseyi, Hakeem M},
+  Journal                  = {New Astronomy},
+  Year                     = {2017},
+  Pages                    = {35--47},
+  Volume                   = {52},
+  Publisher                = {Elsevier}
+}
+
+@Article{johnston2017variable,
+  Title                    = {Variable Star Signature Classification using Slotted Symbolic Markov Modeling},
+  Author                   = {Johnston, Kyle B and Peter, Adrian M},
+  Journal                  = {New Astronomy},
+  Year                     = {2017},
+  Pages                    = {1--11},
+  Volume                   = {50},
+  Publisher                = {Elsevier}
+}
+
+@Article{Keogh2001,
+  Title                    = {Dimensionality reduction for fast similarity search in large time series databases},
+  Author                   = {Keogh, Eamonn and Chakrabarti, Kaushik and Pazzani, Michael and Mehrotra, Sharad},
+  Journal                  = {Knowledge and information Systems},
+  Year                     = {2001},
+  Number                   = {3},
+  Pages                    = {263--286},
+  Volume                   = {3},
+  Publisher                = {Springer}
+}
+
+@Article{kirk2016kepler,
+  Title                    = {Kepler eclipsing binary stars. VII. The catalog of eclipsing binaries found in the entire Kepler data set},
+  Author                   = {Kirk, Brian and Conroy, Kyle and Pr{\v{s}}a, Andrej and Abdul-Masih, Michael and Kochoska, Angela and Matijevi{\v{C}}, Gal and Hambleton, Kelly and Barclay, Thomas and Bloemen, Steven and Boyajian, Tabetha and others},
+  Journal                  = {The Astronomical Journal},
+  Year                     = {2016},
+  Number                   = {3},
+  Pages                    = {68},
+  Volume                   = {151},
+  Publisher                = {IOP Publishing}
+}
+
+@Article{kovavcevictime,
+  Title                    = {Time Delay Evolution of Five Active Galactic Nuclei},
+  Author                   = {Kova{\v{c}}evi{\'c}, A and Popovi{\'c}, L{\v{C}} and Shapovalova, AI and Ili{\'c}, D and Burenkov, AN and Chavushyan, VH},
+  Journal                  = {Journal of Astrophysics and Astronomy},
+  Year                     = {2015},
+  Pages                    = {1--19},
+  Publisher                = {Springer}
+}
+
+@Book{Krzanowski2000,
+  Title                    = {Principles of multivariate analysis},
+  Author                   = {Krzanowski, Wojtek},
+  Publisher                = {Oxford University Press},
+  Year                     = {2000}
+}
+
+@InProceedings{Lan2011,
+  Title                    = {An Active Leanring Algorithm Based on Parzen Window Classification},
+  Author                   = {Lan, L. and Haidong, S. and Wang, Z. and Vucetic, S.},
+  Booktitle                = {JMLR: Workshop and Conference Proceedings},
+  Year                     = {2011},
+  Pages                    = {99-112},
+  Owner                    = {514479},
+  Timestamp                = {2015.05.28}
+}
+
+@Book{Law1991,
+  Title                    = {Simulation modeling and analysis},
+  Author                   = {Law, Averill M and Kelton, W David},
+  Publisher                = {McGraw-Hill New York},
+  Year                     = {1991},
+  Volume                   = {2}
+}
+
+@Book{Li2007,
+  Title                    = {Nonparametric econometrics: theory and practice},
+  Author                   = {Li, Qi and Racine, Jeffrey Scott},
+  Publisher                = {Princeton University Press},
+  Year                     = {2007}
+}
+
+@InProceedings{Lin2003,
+  Title                    = {A symbolic representation of time series, with implications for streaming algorithms},
+  Author                   = {Lin, Jessica and Keogh, Eamonn and Lonardi, Stefano and Chiu, Bill},
+  Booktitle                = {Proceedings of the 8th ACM SIGMOD workshop on Research issues in data mining and knowledge discovery},
+  Year                     = {2003},
+  Organization             = {ACM},
+  Pages                    = {2--11}
+}
+
+@Article{lin2007experiencing,
+  Title                    = {Experiencing SAX: a novel symbolic representation of time series},
+  Author                   = {Lin, Jessica and Keogh, Eamonn and Wei, Li and Lonardi, Stefano},
+  Journal                  = {Data Mining and knowledge discovery},
+  Year                     = {2007},
+  Number                   = {2},
+  Pages                    = {107--144},
+  Volume                   = {15},
+  Publisher                = {Springer}
+}
+
+@Article{Lin2012,
+  Title                    = {Pattern recognition in time series},
+  Author                   = {Lin, Jessica and Williamson, Sheri and Borne, Kirk and DeBarr, David},
+  Journal                  = {Advances in Machine Learning and Data Mining for Astronomy},
+  Year                     = {2012},
+  Pages                    = {617--645},
+  Volume                   = {1},
+  Publisher                = {Citeseer}
+}
+
+@Article{Lomb1976,
+  Title                    = {Least-squares frequency analysis of unequally spaced data},
+  Author                   = {Lomb, Nicholas R},
+  Journal                  = {Astrophysics and space science},
+  Year                     = {1976},
+  Number                   = {2},
+  Pages                    = {447--462},
+  Volume                   = {39},
+  Publisher                = {Springer}
+}
+
+@Article{Long2014,
+  Title                    = {Estimating a Common Period for a Set of Irregularly Sampled Functions with Applications to Periodic Variable Star Data},
+  Author                   = {Long, James P and Chi, Eric C and Baraniuk, Richard G},
+  Journal                  = {arXiv preprint arXiv:1412.6520},
+  Year                     = {2014}
+}
+
+@Article{Masci2014,
+  Title                    = {Automated Classification of Periodic Variable Stars detected by the Wide-field Infrared Survey Explorer},
+  Author                   = {Masci, Frank J and Hoffman, Douglas I and Grillmair, Carl J and Cutri, Roc M},
+  Journal                  = {The Astronomical Journal},
+  Year                     = {2014},
+  Number                   = {1},
+  Pages                    = {21},
+  Volume                   = {148},
+  Publisher                = {IOP Publishing}
+}
+
+@Unpublished{knote:inpress-b,
+  author  = {Matthew F. Knote, Ronald H. Katchuck, Robert C. Berrington},
+  title   = {Modeling of Eclipsing Binary Systems NSVS 7322420 and NSVS 5726288},
+  year    = {submitted},
+  journal = {Journal of the American Association of Variable Star Observers},
+}
+
+@Article{Norgaard2006,
+  Title                    = {A modification of canonical variates analysis to handle highly collinear multivariate data},
+  Author                   = {N{\o}rgaard, Lars and Bro, Rasmus and Westad, Frank and Engelsen, S{\o}ren Balling},
+  Journal                  = {Journal of Chemometrics},
+  Year                     = {2006},
+  Number                   = {8-10},
+  Pages                    = {425--435},
+  Volume                   = {20},
+  Publisher                = {Wiley Online Library}
+}
+
+@InProceedings{Ngeow2013,
+  Title                    = {Preliminary analysis of ULPC light curves using fourier decomposition technique},
+  Author                   = {Ngeow, Chow-Choong and Lucchini, Scott and Kanbur, Shashi and Barrett, Brittany and Lin, Bin},
+  Booktitle                = {Space Science and Communication (IconSpace), 2013 IEEE International Conference on},
+  Year                     = {2013},
+  Organization             = {IEEE},
+  Pages                    = {7--12}
+}
+
+@Article{o1951so,
+  Title                    = {The So-Called Periastron Effect in Eclipsing Binaries},
+  Author                   = {O'Connell, DJK},
+  Journal                  = {Monthly Notices of the Royal Astronomical Society},
+  Year                     = {1951},
+  Number                   = {6},
+  Pages                    = {642--642},
+  Volume                   = {111},
+  Publisher                = {Oxford University Press Oxford, UK}
+}
+
+@Article{Palaversa2013,
+  Title                    = {Exploring the Variable Sky with LINEAR. III. Classification of Periodic Light Curves},
+  Author                   = {Palaversa, Lovro and Ivezi{\'c}, {\v{Z}}eljko and Eyer, Laurent and Ru{\v{z}}djak, Domagoj and Sudar, Davor and Galin, Mario and Kroflin, Andrea and Mesari{\'c}, Martina and Munk, Petra and Vrbanec, Dijana and others},
+  Journal                  = {The Astronomical Journal},
+  Year                     = {2013},
+  Number                   = {4},
+  Pages                    = {101},
+  Volume                   = {146},
+  Publisher                = {IOP Publishing}
+}
+
+@Article{park2003lower,
+  Title                    = {Lower dimensional representation of text data based on centroids and least squares},
+  Author                   = {Park, Haesun and Jeon, Moongu and Rosen, J Ben},
+  Journal                  = {BIT Numerical mathematics},
+  Year                     = {2003},
+  Number                   = {2},
+  Pages                    = {427--448},
+  Volume                   = {43},
+  Publisher                = {Springer}
+}
+
+@Article{Park2013,
+  Title                    = {Functional Data Classification of Variable Stars},
+  Author                   = {Park, Min Jeong and Cho, Sin Sup},
+  Journal                  = {CSAM (Communications for Statistical Applications and Methods)},
+  Year                     = {2013},
+  Number                   = {4},
+  Pages                    = {271--281},
+  Volume                   = {20}
+}
+
+@Article{Parzen1962,
+  Title                    = {On estimation of a probability density function and mode},
+  Author                   = {Parzen, Emanuel},
+  Journal                  = {The annals of mathematical statistics},
+  Year                     = {1962},
+  Pages                    = {1065--1076},
+  Publisher                = {JSTOR}
+}
+
+@Article{Pichara2013,
+  Title                    = {Automatic Classification of Variable Stars in Catalogs with missing data},
+  Author                   = {Pichara, Karim and Protopapas, Pavlos},
+  Journal                  = {The Astrophysical Journal},
+  Year                     = {2013},
+  Number                   = {2},
+  Pages                    = {83},
+  Volume                   = {777},
+  Publisher                = {IOP Publishing}
+}
+
+@Article{Pichara2012,
+  Title                    = {An improved quasar detection method in EROS-2 and MACHO LMC data sets},
+  Author                   = {Pichara, Karim and Protopapas, Pavlos and Kim, D-W and Marquette, J-B and Tisserand, Patrick},
+  Journal                  = {Monthly Notices of the Royal Astronomical Society},
+  Year                     = {2012},
+  Number                   = {2},
+  Pages                    = {1284--1297},
+  Volume                   = {427},
+  Publisher                = {Oxford University Press}
+}
+
+@Article{Pojmanski2000,
+  Title                    = {The All Sky Automated Survey. Catalog of about 3800 Variable Stars},
+  Author                   = {Pojmanski, G},
+  Journal                  = {Acta Astronomica},
+  Year                     = {2000},
+  Pages                    = {177--190},
+  Volume                   = {50}
+}
+
+@Article{Pojmanski2002,
+  Title                    = {The All Sky Automated Survey. Catalog of Variable Stars. I. 0 h-6 hQuarter of the Southern Hemisphere},
+  Author                   = {Pojmanski, G},
+  Journal                  = {Acta Astronomica},
+  Year                     = {2002},
+  Pages                    = {397--427},
+  Volume                   = {52}
+}
+
+@Article{Protopapas2006,
+  Title                    = {Finding outlier light curves in catalogues of periodic variable stars},
+  Author                   = {Protopapas, Pavlos and Giammarco, JM and Faccioli, L and Struble, MF and Dave, Rahul and Alcock, Charles},
+  Journal                  = {Monthly Notices of the Royal Astronomical Society},
+  Year                     = {2006},
+  Number                   = {2},
+  Pages                    = {677--696},
+  Volume                   = {369},
+  Publisher                = {Oxford University Press}
+}
+
+@Article{Rebbapragada2011,
+  Title                    = {Classification of ASKAP VAST Radio Light Curves},
+  Author                   = {Rebbapragada, Umaa and Lo, Kitty and Wagstaff, Kiri L and Murphy, Tara and Thompson, David R},
+  Journal                  = {Proceedings of the International Astronomical Union},
+  Year                     = {2011},
+  Number                   = {S285},
+  Pages                    = {397--399},
+  Volume                   = {7},
+  Publisher                = {Cambridge Univ Press}
+}
+
+@Article{Rehfeld2014,
+  Title                    = {Similarity estimators for irregular and age-uncertain time series},
+  Author                   = {Rehfeld, Kira and Kurths, J{\"u}rgen},
+  Journal                  = {Climate of the Past},
+  Year                     = {2014},
+  Number                   = {1},
+  Pages                    = {107--122},
+  Volume                   = {10},
+  Publisher                = {Copernicus GmbH}
+}
+
+@Article{Rehfeld2011,
+  Title                    = {Comparison of correlation analysis techniques for irregularly sampled time series},
+  Author                   = {Rehfeld, Kira and Marwan, Norbert and Heitzig, Jobst and Kurths, J{\"u}rgen},
+  Journal                  = {Nonlinear Processes in Geophysics},
+  Year                     = {2011},
+  Number                   = {3},
+  Pages                    = {389--404},
+  Volume                   = {18},
+  Publisher                = {COPERNICUS GESELLSCHAFT MBH}
+}
+
+@PhdThesis{Reimann1994,
+  Title                    = {Frequency Estimation Using Unequally-Spaced Astronomical Data},
+  Author                   = {Reimann, James Dennis},
+  School                   = {University of California, Berkeley},
+  Year                     = {1994},
+  Owner                    = {514479},
+  Timestamp                = {2015.05.28}
+}
+
+@Article{Renninger2004,
+  Title                    = {When is scene identification just texture recognition?},
+  Author                   = {Renninger, Laura Walker and Malik, Jitendra},
+  Journal                  = {Vision research},
+  Year                     = {2004},
+  Number                   = {19},
+  Pages                    = {2301--2311},
+  Volume                   = {44},
+  Publisher                = {Elsevier}
+}
+
+@Article{Richards2012,
+  Title                    = {Construction of a Calibrated Probabilistic Classification Catalog: Application to 50k Variable Sources in the All-Sky Automated Survey},
+  Author                   = {Richards, J. W. and Starr, D. L. and Miller, A. A. and Bloom, J. S. and Butler, N. R. and Brink, H. and Crellin-Quick, A.},
+  Journal                  = {The Astrophysical Journal Supplement Series},
+  Year                     = {2012},
+  Number                   = {2},
+  Pages                    = {32},
+  Volume                   = {203},
+  Owner                    = {514479},
+  Timestamp                = {2015.05.28}
+}
+
+@Article{Rifkin2004,
+  Title                    = {In defense of one-vs-all classification},
+  Author                   = {Rifkin, R. and Klautau, A.},
+  Journal                  = {The Journal of Machine Learning Research},
+  Year                     = {2004},
+  Pages                    = {101-141},
+  Volume                   = {5},
+  Owner                    = {514479},
+  Timestamp                = {2015.05.28}
+}
+
+@Article{Rioul1991,
+  Title                    = {Wavelets and signal processing},
+  Author                   = {Rioul, O. and Vetterli, M.},
+  Journal                  = IEEE_M_SP,
+  Year                     = {1991},
+  Number                   = {4},
+  Pages                    = {14--38},
+  Volume                   = {8},
+  __markedentry            = {[514479:6]},
+  Doi                      = {10.1109/79.91217},
+  Owner                    = {514479},
+  Timestamp                = {2015.05.28}
+}
+
+@Book{Ross2013,
+  Title                    = {Applied probability models with optimization applications},
+  Author                   = {Ross, Sheldon. M.},
+  Publisher                = {Courier Corporation},
+  Year                     = {2013},
+  Owner                    = {514479},
+  Timestamp                = {2015.05.28}
+}
+
+@Article{Scargle1982,
+  Title                    = {Studies in astronomical time series analysis. II-Statistical aspects of spectral analysis of unevenly spaced data.},
+  Author                   = {Scargle, J. D.},
+  Journal                  = {The Astrophysical Journal},
+  Year                     = {1982},
+  Pages                    = {835-853},
+  Volume                   = {263},
+  Owner                    = {514479},
+  Timestamp                = {2015.05.28}
+}
+
+@PhdThesis{Sch06,
+  Title                    = {Approaches to analyse and interpret biological profile data},
+  Author                   = {Scholz, M.},
+  School                   = {University of Potsdam},
+  Year                     = {2006},
+  Address                  = {Germany}
+}
+
+@Article{Sesar2011,
+  Title                    = {Exploring the variable sky with LINEAR. I. Photometric recalibration with the Sloan Digital Sky Survey},
+  Author                   = {Sesar, B. and Stuart, J. S. and Ivezi, {\v Z}. and Morgan, D. P. and Becker, A. C. and Woniak, P.},
+  Journal                  = {The Astronomical Journal},
+  Year                     = {2011},
+  Number                   = {6},
+  Pages                    = {190},
+  Volume                   = {142},
+  Owner                    = {514479},
+  Timestamp                = {2015.05.28}
+}
+
+@Article{siverd2012kelt,
+  Title                    = {KELT-1b: a strongly irradiated, highly inflated, short period, 27 Jupiter-mass companion transiting a Mid-F Star},
+  Author                   = {Siverd, Robert J and Beatty, Thomas G and Pepper, Joshua and Eastman, Jason D and Collins, Karen and Bieryla, Allyson and Latham, David W and Buchhave, Lars A and Jensen, Eric LN and Crepp, Justin R and others},
+  Journal                  = {The Astrophysical Journal},
+  Year                     = {2012},
+  Number                   = {2},
+  Pages                    = {123},
+  Volume                   = {761},
+  Publisher                = {IOP Publishing}
+}
+
+@Article{Szatmary1994,
+  Title                    = {Application of wavelet analysis in variable star research. I. Properties of the wavelet map of simulated variable star light curves},
+  Author                   = {Szatmary, K. and Vinko, J. and Gál, J.},
+  Journal                  = {Astronomy and Astrophysics Supplement Series},
+  Year                     = {1994},
+  Pages                    = {377-394},
+  Volume                   = {108},
+  Owner                    = {514479},
+  Timestamp                = {2015.05.28}
+}
+
+@Article{Tagliaferri2003,
+  Title                    = {Neural networks in astronomy},
+  Author                   = {Tagliaferri, R. and Longo, G. and Milano, L. and Acernese, F. and Barone, F. and Ciaramella, A. and Volpicelli, A.},
+  Year                     = {2003},
+  Number                   = {3},
+  Pages                    = {297-319},
+  Volume                   = {16},
+  Owner                    = {514479},
+  Timestamp                = {2015.05.28}
+}
+
+@Misc{Ddtools2014,
+  Title                    = {DDtools, the Data Description Toolbox for Matlab},
+  Author                   = {Tax, D.M.J.},
+  Month                    = {July},
+  Note                     = {version 2.1.1},
+  Year                     = {2014}
+}
+
+@PhdThesis{Tax2001,
+  Title                    = {One-class Classification},
+  Author                   = {Tax, D.M.J.},
+  School                   = {Delft University of Technology},
+  Year                     = {2001},
+  Owner                    = {514479},
+  Timestamp                = {2015.05.28}
+}
+
+@InProceedings{Tax2003,
+  Title                    = {Feature extraction for one-class classification},
+  Author                   = {Tax, D.M.J. and Muller, K.R.},
+  Booktitle                = {Proceedings of the ICANN/ICONIP},
+  Year                     = {2003},
+  Pages                    = {342-349},
+  Owner                    = {514479},
+  Timestamp                = {2015.05.28}
+}
+
+@Article{Templeton2004,
+  Title                    = {Time-Series Analysis of Variable Star Data},
+  Author                   = {Templeton, M.},
+  Journal                  = {AAVSO},
+  Year                     = {2004},
+  Pages                    = {41},
+  Volume                   = {32},
+  Owner                    = {514479},
+  Timestamp                = {2015.05.28}
+}
+
+@Article{Torrence1998,
+  Title                    = {A practical guide to wavelet analysis},
+  Author                   = {Torrence, C. and Compo, G. P.},
+  Journal                  = {Bulletin of the American Meteorological society},
+  Year                     = {1998},
+  Number                   = {1},
+  Volume                   = {79},
+  Owner                    = {514479},
+  Timestamp                = {2015.05.28}
+}
+
+@Article{Udalski1999,
+  Title                    = {The optical gravitational lensing experiment. cepheids in the magellanic clouds. v. catalog of cepheids from the small magellanic cloud.},
+  Author                   = {Udalski, A. and Soszynski, I. and Szymanski, M. and Kubiak, M. and Pietrzynski, G. and Wozniak, P. and Zebrun, K.},
+  Journal                  = {Acta Astronomica},
+  Year                     = {1999},
+  Pages                    = {437-520},
+  Volume                   = {49},
+  Owner                    = {514479},
+  Timestamp                = {2015.05.28}
+}
+
+@InProceedings{weinberger2006distance,
+  Title                    = {Distance metric learning for large margin nearest neighbor classification},
+  Author                   = {Weinberger, Kilian Q and Blitzer, John and Saul, Lawrence K},
+  Booktitle                = {Advances in neural information processing systems},
+  Year                     = {2006},
+  Pages                    = {1473--1480}
+}
+
+@InProceedings{wilsey2009revisiting,
+  Title                    = {Revisiting the O'Connell Effect in Eclipsing Binary Systems},
+  Author                   = {Wilsey, Nicholas J and Beaky, Mathew M},
+  Booktitle                = {Society for Astronomical Sciences Annual Symposium},
+  Year                     = {2009},
+  Pages                    = {107},
+  Volume                   = {28}
+}
+
+@Article{wilson1971realization,
+  Title                    = {Realization of accurate close-binary light curves: application to MR Cygni},
+  Author                   = {Wilson, Robert E and Devinney, Edward J},
+  Journal                  = {The Astrophysical Journal},
+  Year                     = {1971},
+  Pages                    = {605},
+  Volume                   = {166}
+}
+
+@Article{Wold1939,
+  Title                    = {A Study in Analysis of Stationary Time Series},
+  Author                   = {Wold, H.},
+  Journal                  = {Journal of the Royal Statistical Society},
+  Year                     = {1939},
+  Number                   = {2},
+  Pages                    = {295-298},
+  Volume                   = {102},
+  Owner                    = {514479},
+  Timestamp                = {2015.05.28}
+}
+
+@InProceedings{Ye2000,
+  Title                    = {A markov chain model of temporal behavior for anomaly detection},
+  Author                   = {Ye, N.},
+  Booktitle                = {2000 IEEE Systems, Man, and Cybernetics Information Assurance and Security Workshop},
+  Year                     = {2000},
+  Address                  = {West Point, NY.},
+  Pages                    = {169},
+  Volume                   = {166},
+  Owner                    = {514479},
+  Timestamp                = {2015.05.28}
+}
+
+@PhdThesis{McCartney1999,
+  author = {McCartney, S.A.},
+  title  = {A 2-D Model for the O'Connell effect in W Ursae Majoris systems"},
+  school = {University of Oklahoma Graduate College},
+  year   = {1999},
+}
+
+@InProceedings{sevilla2012distribution,
+  author       = {Sevilla-Lara, Laura and Learned-Miller, Erik},
+  title        = {Distribution fields for tracking},
+  booktitle    = {Computer Vision and Pattern Recognition (CVPR), 2012 IEEE Conference on},
+  year         = {2012},
+  pages        = {1910--1917},
+  organization = {IEEE},
+}
+
+@Article{ding2018matrix,
+  author    = {Ding, Shanshan and Dennis Cook, R},
+  title     = {Matrix variate regressions and envelope models},
+  journal   = {Journal of the Royal Statistical Society: Series B (Statistical Methodology)},
+  year      = {2018},
+  volume    = {80},
+  number    = {2},
+  pages     = {387--408},
+  publisher = {Wiley Online Library},
+}
+
+@Article{akaho2006kernel,
+  author  = {Akaho, Shotaro},
+  title   = {A kernel method for canonical correlation analysis},
+  journal = {arXiv preprint cs/0609071},
+  year    = {2006},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
