@@ -46,7 +46,6 @@ for i = 1:1:length(structReduct)
     x(boolNeg) = 1 + x(boolNeg); % Wrap
     
     % Align Smoothed Data (Re-smooth with new alignment)
-    
     x_plus = x + 1.0;
     y_plus = y;
     

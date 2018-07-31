@@ -82,7 +82,7 @@ if (any(strfind(['both', 'row'], options.direction)))
     paddedDF = paddedDF + 1 / options.numYBins;
     paddedDF(padding + 1:end - padding, :) = df;
 
-    % Perform the convolution at each row
+    % Perform the convolution along row
     convDF = paddedDF;
     for idx = 1:1:options.numYBins
         tmp = conv(paddedDF(:,idx), options.kernel);
@@ -102,7 +102,7 @@ if (any(strfind(['both', 'column'], options.direction)))
     
     paddedDF( :, padding + 1:end - padding) = df;
 
-    % Perform the convolution at each column
+    % Perform the convolution along column
     convDF = paddedDF;
     for idx = 1:1:options.numXBins
         tmp = conv(paddedDF(idx, :), options.kernel);
