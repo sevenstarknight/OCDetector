@@ -67,7 +67,7 @@
 \papercolumns 1
 \papersides 1
 \paperpagestyle default
-\tracking_changes true
+\tracking_changes false
 \output_changes false
 \html_math_output 0
 \html_css_as_file 0
@@ -78,8 +78,11 @@
 \begin_body
 
 \begin_layout Title
-A Novel Detection Metric Designed for Identification of O'Connell Effect
- Eclipsing Binaries
+A Novel
+\change_deleted -505933907 1541278377
+ 
+\change_unchanged
+ Metric Designed for Identification of O'Connell Effect Eclipsing Binaries
 \end_layout
 
 \begin_layout Author
@@ -194,13 +197,7 @@ With the rise of large scale surveys such as the Kepler, the Transiting
  Telescope (KELT), the Large Synoptic Survey Telescope (LSST), Pan-STARRS,
  and the like, a fundamental working knowledge of statistical data analysis
  and data management for the reasonable processing of astronomical data
- 
-\change_deleted -505933907 1538157412
-is
-\change_inserted -505933907 1538157412
-are
-\change_unchanged
- necessary.
+ are necessary.
  The ability to mine these datasets for new and interesting astronomical
  information opens a number of scientific windows that were once limited
  by poor sampling; both in terms of number of stars (targets) and depth
@@ -225,34 +222,14 @@ key "o1951so"
 
  is defined for eclipsing binaries as an asymmetry in the maxima of the
  phased light curve.
- This 
-\change_inserted -505933907 1538157719
-maxima 
-\change_unchanged
-asymmetry is unexpected, as it suggests an orientation dependency in the
- brightness of the system.
+ This maxima asymmetry is unexpected, as it suggests an orientation dependency
+ in the brightness of the system.
  Similarly, the consistency of the asymmetric over many orbits is also surprisin
-g, as it suggests the 
-\change_deleted -505933907 1538157751
-cause of the
-\change_unchanged
+g, as it suggests the
+\change_deleted -505933907 1541278377
  
-\change_inserted -505933907 1538157710
-maxima 
 \change_unchanged
-asymmetry 
-\change_deleted -505933907 1538157754
-is
-\change_inserted -505933907 1538157755
-has a
-\change_unchanged
- dependen
-\change_inserted -505933907 1538157758
-ce
-\change_deleted -505933907 1538157758
-t
-\change_unchanged
- on the rotation of the binary system.
+ maxima asymmetry has a dependence on the rotation of the binary system.
  While the cause of the O'Connell Effect is not fully understood, a number
  of explanations have been made, and additional data and modeling is necessary
  for further investigation 
@@ -285,72 +262,6 @@ key "sevilla2012distribution"
  inter-class class variability and simultaneously handle irregular sampling
  rates and multi-valued observations associated with stellar observations.
  
-\change_deleted -505933907 1538156699
-Figure 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Example-of-DF"
-
-\end_inset
-
- illustrates how two OEBB observations that have noticeable differences
- in their time-domain form can produce similar DFs; thus improving their
- chances of being detected as belonging to the same class.
- It also shows how observations from a non-OEEB maps to different looking
- DFs.
- 
-\change_unchanged
-
-\end_layout
-
-\begin_layout Standard
-
-\change_deleted -505933907 1538156703
-\begin_inset Float figure
-placement t
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename Figures/ExampleOfDF.png
-	lyxscale 25
-	scale 25
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Example of DF feature space representation, phased light curves are presented
- on the top row, DF features are presented on the bottom row.
- The left column and center columns are targets of interest (OEEB), the
- right column is a example of a non-OEEB binary
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Example-of-DF"
-
-\end_inset
-
-.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\change_unchanged
-
 \end_layout
 
 \begin_layout Standard
@@ -381,19 +292,6 @@ on, where DFs corresponding to OEEBs influence the learned metric to measure
 \end_layout
 
 \begin_layout Standard
-
-\change_deleted -505933907 1538156625
-The prior efforts employing machine learning to classify variable stars
- are reviewed in Section 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "subsec:Prior-Methodologies"
-
-\end_inset
-
-, including a discussion on the target variable star class.
- 
-\change_unchanged
 We outline the novel proposed pipeline for OEEBs detection in Sections 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -417,8 +315,8 @@ reference "subsec:Comparative-Methodologies"
 \end_inset
 
 .
- The train and testing strategies for our metric learning framework are
- developed in Section 
+ The training and testing of strategies for our metric learning framework
+ are developed in Section 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "subsec:Training,-Cross-Validation-and"
@@ -433,206 +331,6 @@ reference "subsec:Training,-Cross-Validation-and"
  Finally, we conclude with a summary of our findings and directions for
  future research.
  
-\change_deleted -505933907 1538156616
-
-\end_layout
-
-\begin_layout Subsection
-
-\change_deleted -505933907 1538156616
-Prior Methodologies
-\begin_inset CommandInset label
-LatexCommand label
-name "subsec:Prior-Methodologies"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\change_deleted -505933907 1538156616
-The idea of constructing a supervised classification algorithm for stellar
- classification is not unique to this paper 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Dubath2011"
-
-\end_inset
-
-.
- Methods pursued include the construction of a detector to determine variability
- 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Barclay2011"
-
-\end_inset
-
-, the design of random forests for the detection of photometric redshifts
- in spectra 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Carliles2010"
-
-\end_inset
-
-, the detection of transient events 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Djorgovski2012"
-
-\end_inset
-
- and the development of machine-assisted discovery of astronomical parameter
- relationships 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Graham2013"
-
-\end_inset
-
-.
- 
-\begin_inset CommandInset citation
-LatexCommand citet
-key "Debosscher2009"
-
-\end_inset
-
- explored several classification techniques for the supervised classification
- of variable stars, quantitatively comparing the performance in terms of
- computational speed and performance.
- Likewise, other efforts have focused on comparing speed and robustness
- of various methods 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Blomme2011,Pichara2012,Pichara2013"
-
-\end_inset
-
-.
- These methods span both different classifiers and different spectral regimes,
- including infrared (IR) 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Angeloni2014,Masci2014"
-
-\end_inset
-
-, radio frequency (RF) 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Rebbapragada2011"
-
-\end_inset
-
- and optical 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Richards2012"
-
-\end_inset
-
-.
- Methods for automated supervised classification include procedures such
- as: direct parametric analysis 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Udalski1999"
-
-\end_inset
-
-, fully automated neural networking 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Pojmanski2000,Pojmanski2002"
-
-\end_inset
-
- and Bayesian classification 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Eyer2005"
-
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Standard
-
-\change_deleted -505933907 1538156616
-Many of these efforts have, with the advent of massive surveys such as the
- LSST, focused mostly on multi-class classification.
- The costs and benefits of multi-class verses two-class classification have
- been demonstrated in 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "Rifkin2004,beygelzimer2005weighted"
-
-\end_inset
-
-.
- Likewise, the effect that a lack of training data, a greatly imbalanced
- class set, and an incomplete or ill-defined class space has on multi-class
- classification has also been reviewed 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "johnston2017generation"
-
-\end_inset
-
-.
- Methods for addressing these concerns were also addressed by 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "johnston2017generation"
-
-\end_inset
-
-, who proposed anomaly detection, and one vs.
- all classification (detection) as measures for improving pipeline performance
- and mitigating the risks associated with variable star classification.
-\end_layout
-
-\begin_layout Standard
-
-\change_deleted -505933907 1538156616
-The Fourier domain feature space developed in 
-\begin_inset CommandInset citation
-LatexCommand citet
-key "Debosscher2009"
-
-\end_inset
-
-, has been used in a number of variable star classification papers (many
- of the ones addressed above), and has been shown to be useful in generic
- multi-classification.
- 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "johnston2017variable"
-
-\end_inset
-
- showed that shape based features can be just as effective in variable star
- identification.
- This paper focuses on the construction and application of a novel time-domain
- signature extraction methodology based on the phased light curve functional
- shape, and the development of a supporting supervised pattern classification
- algorithm for the identification of variable stars.
- Given the reduction of a survey of stars into a standard feature space,
- the problem of using prior patterns to identify new observed patterns can
- be addressed via classification algorithms.
- These methods have two large advantages over manual-classification procedures:
- the rate at which new data is processed is dependent only on the computational
- processing power available and the performance of a supervised classification
- algorithm is quantifiable and consistent.
- 
-\change_unchanged
-
 \end_layout
 
 \begin_layout Subsection
@@ -670,23 +368,15 @@ key "wilsey2009revisiting"
 
  outlines each of these theories, and demonstrates how the observed effects
  are generated by the underlying physics.
- 
-\end_layout
-
-\begin_layout Standard
-Starspots result from chromospheric activity, causing 
-\change_deleted -505933907 1538157840
-flares
-\change_inserted -505933907 1538157841
-increases
-\change_unchanged
- in brightness.
- To explain the observed effect, however, these flares would need to be
- both consistent in brightness as well as in position (long term stability).
- Gas stream impact results from matter transferring between stars (smaller
- to larger) through the L1 point and onto a specific position on the larger
- star, resulting in a consistent brightening on the leading/trailing side
- of the secondary/primary.
+ For example, starspots result from chromospheric activity and cause increases
+ in observed brightness, however for this to explain the observed effect,
+ these flares would need to be both consistent in brightness as well as
+ in position (long term stability).
+ Gas stream impact, from matter transferring between stars (smaller to larger)
+ through the L1 point and onto a specific position on the larger star, would
+ also result in a consistent brightening on the leading/trailing side of
+ the secondary/primary; this scenario describes both the dependancy on rotation
+ of the binary as well as the orientation of the binary.
  The circumstellar matter theory attempts to describe the increase in brightness
  via free falling matter being swept up, resulting in energy loss and heating,
  again causing an increase in amplitude.
@@ -694,19 +384,6 @@ increases
  i.e.
  the difference in maximum magnitude of the phased light curve results from
  a dimming and not brightening.
-\end_layout
-
-\begin_layout Standard
-Even in the 
-\begin_inset CommandInset citation
-LatexCommand citet
-key "McCartney1999"
-
-\end_inset
-
- comprehensive study, the sample was limited to only six star systems: GSC
- 03751-00178, V573 Lyrae, V1038 Herculis, ZZ Pegasus, V1901 Cygni, and UV
- Monocerotis; the data of two of these are presented in the paper.
  Standard eclipsing binary simulations were used 
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -812,8 +489,8 @@ key "wilsey2009revisiting,knote:inpress-b"
 \end_inset
 
 .
- The bounding or defining of descriptive statistics or functional relationships
- such as: delta max amplitude (
+ The bounding or defining of descriptive light curve statistics such as:
+ delta max amplitude (
 \begin_inset Formula $\Delta m_{max}$
 \end_inset
 
@@ -822,22 +499,17 @@ key "wilsey2009revisiting,knote:inpress-b"
 \end_inset
 
 ), expected period, etc., requires a larger sample than is presently available.
- 
-\end_layout
-
-\begin_layout Standard
-This effort proposes using functional shape as the target of interest indicator;
- furthermore, the quantification of functional statistics allow for the
+ This effort proposes using functional shape as the target of interest indicator
+; furthermore, the quantification of functional statistics allow for the
  improved understanding of not just the standard definition of the variable,
  but also the population distribution as a whole.
  These estimates allow for empirical statements to be made regarding the
  feature distributions of OEEB type light curves.
- The determination of an empirically observed distribution, however, requires
- a significant sample from which to make the descriptive statistics for
- various measurements.
- To generate these empirical estimates a large dataset is required, the
- challenge is how to consistently select similar targets of interest in
- an automated fashion.
+ The determination of an empirically observed distribution requires a significan
+t sample from which to make the descriptive statistics for various measurements.
+ To generate these empirical estimates, a large dataset is required.
+ The challenge is how to consistently select similar targets of interest
+ in an automated fashion.
  
 \end_layout
 
@@ -933,13 +605,7 @@ name "subsec:Signal-Conditioning-and"
 
 \begin_layout Standard
 Prior to feature space processing, the raw observed photometric time domain
- data 
-\change_deleted -505933907 1538157431
-is
-\change_inserted -505933907 1538157431
-are
-\change_unchanged
- conditioned and processed.
+ data are conditioned and processed.
  This effort includes long term trend removal, artifact removal, initial
  light curve phasing and initial Eclipsing Binary identification.
  The is performed prior to the effort by the Eclipsing Binary catalog (this
@@ -1002,9 +668,10 @@ is the phased light curve,
 \end_inset
 
 is the min-max scaled amplitude.
- The min of the smoothed phased light curve is used as a registration marker
- and both the smoothed and unsmoothed light curved are aligned such that
- lag/phase zero corresponds to min amplitude (minima eclipse, see 
+ The minimum of the smoothed phased light curve is used as a registration
+ marker and both the smoothed and unsmoothed light curved are aligned such
+ that lag/phase zero corresponds to minimum amplitude (minima eclipse, see
+ 
 \begin_inset CommandInset citation
 LatexCommand citealt
 key "McCartney1999"
@@ -1012,19 +679,10 @@ key "McCartney1999"
 \end_inset
 
 ).
- Stored with the original aligned phased light curve data 
-\change_deleted -505933907 1538157439
-is
-\change_inserted -505933907 1538157439
-are
-\change_unchanged
- the smoothed aligned curve, as well as a regularly sampled smoothed curve
- generated by
-\change_inserted -505933907 1538156914
- linearly
-\change_unchanged
- interpolating the smooth, unique, 1-D functional curve generated from the
- SUPERSMOOTHER algorithm.
+ Stored with the original aligned phased light curve data are the smoothed
+ aligned curve, as well as a regularly sampled smoothed curve generated
+ by linearly interpolating the smooth, unique, 1-D functional curve generated
+ from the SUPER-SMOOTHER algorithm.
  This set of three datasets is used at different points in this analysis.
  
 \end_layout
@@ -1037,7 +695,7 @@ Distribution Fields for 1D Signal Classification
 As stated, this analysis focuses on the detection of OEEB systems based
  on their light curve shape.
  The OEEB signature has a cyclostationary signal, a functional shape that
- repeats with some frequency.
+ repeats with some consistant frequency.
  The signature can be isolated using a process of period finding, folding,
  and phasing 
 \begin_inset CommandInset citation
@@ -1113,13 +771,7 @@ DF_{ij}=\frac{\sum\left[y_{j}<f\left(x_{i}\leq\phi\leq x_{i+1}\right)<y_{j-1}\ri
 \end_layout
 
 \begin_layout Standard
-
-\change_inserted -505933907 1538158172
-w
-\change_deleted -505933907 1538158172
-W
-\change_unchanged
-here, 
+where, 
 \begin_inset Formula $\left[\:\right]$
 \end_inset
 
@@ -1130,9 +782,7 @@ key "iverson1962programming"
 
 \end_inset
 
-, 
-\change_inserted -505933907 1538158168
-given as Equation 
+, given as Equation 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:iverson"
@@ -1143,14 +793,12 @@ reference "eq:iverson"
 \end_layout
 
 \begin_layout Standard
-
-\change_inserted -505933907 1538158094
 \begin_inset Formula 
 \begin{equation}
-[P]=\begin{cases}
-1 & if\:P\:is\:true\\
+[P]=\left\{ \begin{array}{cc}
+1 & P=true\\
 0 & otherwise
-\end{cases}\label{eq:iverson}
+\end{array}\right.\label{eq:iverson}
 \end{equation}
 
 \end_inset
@@ -1190,12 +838,12 @@ al) input.
  In the 1-D case, convolution can be used to achieve a representation that
  takes into account the feature values of the surrounding points, that is
  the case here as well and convolution is included as part of this analysis.
- The transformation outlined here of smoothing and mapping to the DF feature
- space provides a domain in which: (1) the phased light curve (functional
- shape) is represented, (2) variation in amplitude is provided for, (3)
- variation in phase is provided for, and (4) some amount of dimensionality
- reduction as compared to the original light curve or the smoothed dataset
- is implemented.
+ The transformation procedure outlined here, a combination of smoothing
+ and mapping to the DF feature space, provides a domain in which: (1) the
+ phased light curve (functional shape) is represented, (2) variation in
+ amplitude is provided for, (3) variation in phase is provided for, and
+ (4) some amount of dimensionality reduction as compared to the original
+ light curve or the smoothed dataset is implemented.
 \end_layout
 
 \begin_layout Subsection
@@ -1282,7 +930,7 @@ reference "eq:3"
 \begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
-d(X,Y)=\left\Vert X-Y\right\Vert _{M}^{2}=tr\left\{ \left(X-Y\right)^{T}M\left(X-Y\right)\right\} \label{eq:3}
+d(X,Y)=\left\Vert X-Y\right\Vert _{M}^{2}=tr\left\{ \left(X-Y\right)^{T}\mathbf{M}\left(X-Y\right)\right\} \label{eq:3}
 \end{equation}
 
 \end_inset
@@ -1292,11 +940,11 @@ d(X,Y)=\left\Vert X-Y\right\Vert _{M}^{2}=tr\left\{ \left(X-Y\right)^{T}M\left(X
 
 \begin_layout Standard
 where 
-\begin_inset Formula $M\in\mathbb{R}^{d\times d}$
+\begin_inset Formula $\mathbf{M}\in\mathbb{R}^{d\times d}$
 \end_inset
 
  and 
-\begin_inset Formula $M\succeq0$
+\begin_inset Formula $\mathbf{M}\succeq0$
 \end_inset
 
  (positive semi-definite).
@@ -1328,7 +976,7 @@ reference "eq:4"
 \begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
-E=\frac{1-\lambda}{N_{c}-1}\sum_{i,j}\left\Vert DF_{c}^{i}-DF_{c}^{j}\right\Vert _{M}^{2}-\frac{\lambda}{N-N_{c}}\sum_{i,k}\left\Vert DF_{c}^{i}-DF_{c}^{k}\right\Vert _{M}^{2}+\frac{\gamma}{2}\left\Vert M\right\Vert _{F}^{2}\label{eq:4}
+E=\frac{1-\lambda}{N_{c}-1}\sum_{i,j}\left\Vert DF_{c}^{i}-DF_{c}^{j}\right\Vert _{M}^{2}-\frac{\lambda}{N-N_{c}}\sum_{i,k}\left\Vert DF_{c}^{i}-DF_{c}^{k}\right\Vert _{M}^{2}+\frac{\gamma}{2}\left\Vert \mathbf{M}\right\Vert _{F}^{2}\label{eq:4}
 \end{equation}
 
 \end_inset
@@ -1377,13 +1025,17 @@ Push term
  Thus, the algorithm attempts to bring similar distribution fields closer
  together, while pushing dissimilar ones further apart, while attempting
  to minimize the complexity of the metric 
-\begin_inset Formula $M$
+\begin_inset Formula $\mathbf{M}$
 \end_inset
 
 .
- The regularizer on the metric M guards against over-fitting and consequently
- enhances algorithm's ability to generalize better---a strategy similar
- in spirit to popular regression techniques like lasso and ridge 
+ The regularizer on the metric 
+\begin_inset Formula $\mathbf{M}$
+\end_inset
+
+ guards against over-fitting and consequently enhances algorithm's ability
+ to generalize better---a strategy similar in spirit to popular regression
+ techniques like lasso and ridge 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Hastie2009"
@@ -1414,8 +1066,16 @@ reference "eq:4"
 
 \end_inset
 
- is quadratic in the unknown metric M; hence, it is possible to obtain the
- following closed-form solution to M Equation 
+ is quadratic in the unknown metric 
+\begin_inset Formula $\mathbf{M}$
+\end_inset
+
+; hence, it is possible to obtain the following closed-form solution to
+ 
+\begin_inset Formula $\mathbf{M}$
+\end_inset
+
+, Equation 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:5"
@@ -1428,7 +1088,7 @@ reference "eq:5"
 \begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
-M=\frac{\lambda}{\gamma\left(N-N_{c}\right)}\sum_{i,k}\left(DF_{c}^{i}-DF_{c}^{k}\right)\left(DF_{c}^{i}-DF_{c}^{k}\right)^{T}-\frac{1-\lambda}{\gamma\left(N_{c}-1\right)}\sum_{i,k}\left(DF_{c}^{i}-DF_{c}^{j}\right)\left(DF_{c}^{i}-DF_{c}^{j}\right)^{T}\label{eq:5}
+\mathbf{M}=\frac{\lambda}{\gamma\left(N-N_{c}\right)}\sum_{i,k}\left(DF_{c}^{i}-DF_{c}^{k}\right)\left(DF_{c}^{i}-DF_{c}^{k}\right)^{T}-\frac{1-\lambda}{\gamma\left(N_{c}-1\right)}\sum_{i,k}\left(DF_{c}^{i}-DF_{c}^{j}\right)\left(DF_{c}^{i}-DF_{c}^{j}\right)^{T}\label{eq:5}
 \end{equation}
 
 \end_inset
@@ -1440,14 +1100,26 @@ reference "eq:5"
 
 \end_inset
 
- does not guarantee that M is positive semi-definite (PSD).
+ does not guarantee that 
+\begin_inset Formula $\mathbf{M}$
+\end_inset
+
+ is positive semi-definite (PSD).
  To ensure this property, we can apply the following straightforward projection
- step after the calculation of M:
+ step after the calculation of 
+\series bold
+
+\begin_inset Formula $\mathbf{M}$
+\end_inset
+
+
+\series default
+:
 \end_layout
 
 \begin_layout Enumerate
 Perform Eigen decomposition: 
-\begin_inset Formula $M=U^{T}\Lambda U$
+\begin_inset Formula $\mathbf{M}=U^{T}\Lambda U$
 \end_inset
 
 
@@ -1464,11 +1136,11 @@ Generate
 
 \begin_layout Enumerate
 Reconstruct the metric 
-\begin_inset Formula $M$
+\begin_inset Formula $\mathbf{M}$
 \end_inset
 
 : 
-\begin_inset Formula $M=U^{T}\Lambda_{+}U$
+\begin_inset Formula $\mathbf{M}=U^{T}\Lambda_{+}U$
 \end_inset
 
  
@@ -1615,7 +1287,7 @@ key "park2003lower"
 \end_inset
 
 -Means algorithm is implemented to, unsupervised, generated estimates of
- “clusters” in the DF space.
+ clusters in the DF space.
  The observations are transformed by finding the Euclidean distance (
 \begin_inset Formula $M=\mathbb{I}$
 \end_inset
@@ -1624,7 +1296,7 @@ key "park2003lower"
 \begin_inset Formula $k$
 \end_inset
 
--mean matrices “discovered”.
+-mean matrices discovered.
  The resulting set of 
 \begin_inset Formula $k$
 \end_inset
@@ -1699,50 +1371,21 @@ key "duda2012pattern"
 
 \end_inset
 
-, 
-\change_deleted -505933907 1538162796
-the function 
-\series bold
-Generate_5FoldCrossVal
-\series default
- generates index lists the algorithm will use in the cross-validation process.
- 
-\change_inserted -505933907 1538162797
-t
-\change_deleted -505933907 1538162796
-T
-\change_unchanged
-he algorithmic details are likely beyond the scope of this paper, however
+, the algorithmic details are likely beyond the scope of this paper, however
  as implemented the algorithm splits each class in the labeled data in half,
  with one half used in training and the other in testing.
- The training data 
-\change_deleted -505933907 1538157462
-is
-\change_inserted -505933907 1538157462
-are
-\change_unchanged
- further subdivided into five partitions; as the algorithm is trained these
- partitioned
-\change_deleted -505933907 1538162811
- are used by the function 
+ The training data are further subdivided into five partitions; as the algorithm
+ is trained these partitioned
 \series bold
-PullTrainingAndCrossFromStruct
-\change_inserted -505933907 1538162813
  are used
-\change_unchanged
-
 \series default
  to generate a training set using four of the five partitions and a cross-valida
 tion set using the fifth.
  
-\change_inserted -505933907 1538157080
-
 \end_layout
 
 \begin_layout Standard
-The cross-validation process is the rotation of which partition is used
- for training and which as the cross-validation set.
- The misclassification error for each of the five iterations is averaged
+The misclassification error for each of the five iterations is averaged
  together to generate a best estimate.
  The minimization of this misclassification rate is used to optimize floating
  parameters in the design such as the number of 
@@ -1774,9 +1417,7 @@ The cross-validation process is the rotation of which partition is used
 \end_inset
 
 -values had a stronger effect (to some degree).
- The set of optimized parameters is given 
-\change_inserted -505933907 1538157158
-as: 
+ The set of optimized parameters is given as: 
 \begin_inset Formula $\gamma=$
 \end_inset
 
@@ -1797,212 +1438,12 @@ as:
 \end_inset
 
 .
-\change_deleted -505933907 1538157093
-in Table 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "tab:Optimized-Parameters"
-
-\end_inset
-
-.
- 
-\change_unchanged
-
-\end_layout
-
-\begin_layout Standard
-
-\change_deleted -505933907 1538157161
-\begin_inset Float table
-placement H
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-The DF Push-Pull optimized parameters based on expert labeled data and cross-val
-idation 
-\begin_inset CommandInset label
-LatexCommand label
-name "tab:Optimized-Parameters"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Tabular
-<lyxtabular version="3" rows="6" columns="2">
-<features tabularvalignment="middle">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Parameter
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Value
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Formula $\gamma$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-1.0
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Formula $\lambda$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.75
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Formula $y-bins$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-35
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Formula $x-bins$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-25
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-k
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-3
-\end_layout
-
-\end_inset
-</cell>
-</row>
-</lyxtabular>
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\change_unchanged
-
 \end_layout
 
 \begin_layout Standard
 Given the optimization of these floating variables in all three algorithms,
- the testing data 
-\change_deleted -505933907 1538157470
-is
-\change_inserted -505933907 1538157470
-are
-\change_unchanged
- then applied to the optimal designs; note this is data that was not included
- in the initial training of the algorithms.
+ the testing data are then applied to the optimal designs; note this is
+ data that was not included in the initial training of the algorithms.
 \begin_inset Float table
 placement H
 wide false
@@ -2255,27 +1696,13 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-The mean
-\change_inserted -505933907 1538162853
- (solid)
-\change_unchanged
- and
-\change_deleted -505933907 1538162859
- 
-\change_inserted -505933907 1538162871
- a 
+The mean (solid) and a 
 \begin_inset Formula $1-\sigma$
 \end_inset
 
- 
-\change_unchanged
-standard deviation
-\change_inserted -505933907 1538162879
- (dashed)
-\change_unchanged
- of the distribution of O'Connell Effect Eclipsing Binary phased light curves
- discovered via the proposed detector out of the Kepler Eclipsing Binary
- Catalog.
+ standard deviation (dashed) of the distribution of O'Connell Effect Eclipsing
+ Binary phased light curves discovered via the proposed detector out of
+ the Kepler Eclipsing Binary Catalog.
  
 \begin_inset CommandInset label
 LatexCommand label
@@ -2325,7 +1752,7 @@ The discovered group is partitioned into sub-groupings via unsupervised
  The k-Means algorithm presented as part of the comparative methodologies
  is applied to the discovered dataset with a predefined cluster number.
  Clusters are numbered one through eight, the resulting 1-D curve generated
- by the supersmoother algorithm are presented in their respective clusters
+ by the SUPER-SMOOTHER algorithm are presented in their respective clusters
  in Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -2494,85 +1921,18 @@ https://github.com/kjohnston82/OCDetector/supplement/AnalysisOfClusters.xlsx
 .
  A plot of the measured metrics as well as estimated values of period and
  temperature (as reported by the Kepler database), with respect to the cluster
- assigned by k-Means, are presented in
-\change_inserted -505933907 1538157300
- 
+ assigned by k-Means, are presented in 
 \begin_inset Foot
 status open
 
 \begin_layout Plain Layout
-
-\change_inserted -505933907 1538157319
 https://github.com/kjohnston82/OCDetector/Figures/ReducedFeaturesKeplerAll_Temp.pn
 g
-\change_unchanged
-
 \end_layout
 
 \end_inset
 
-
-\change_unchanged
  
-\change_deleted -505933907 1538157278
-Figure 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Covariance-Plot-of"
-
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Standard
-
-\change_deleted -505933907 1538157278
-\begin_inset Float figure
-placement H
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename Figures/ReducedFeaturesKeplerAll_Temp.png
-	lyxscale 25
-	scale 15
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Covariance Plot of OER, LCA, maximum amplitude difference, minimum amplitude
- difference, Period, and Effective Temperature for the discovered OEEB in
- the Kepler Eclipsing Binary Dataset.
- 
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Covariance-Plot-of"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\change_inserted -505933907 1538157277
-
 \end_layout
 
 \begin_layout Standard
@@ -3651,7 +3011,8 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-The set of discovered LINEAR targets that demonstrate the OEEB signature.
+The set of discovered smoothed LINEAR targets that demonstrate the OEEB
+ signature.
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:The-discovered-OEEB"
@@ -3822,26 +3183,8 @@ This design is modular enough to be applied, as is, to other types of stars
  (e.g.
  Wavelet and DF), or across representations (e.g.
  polarimetry and photometry), or across frequency regimes (e.g.
- optical and 
-\change_deleted -505933907 1538162922
-RF
-\change_inserted -505933907 1538162924
-radio
-\change_unchanged
-) would be required in the process of properly defining the variable star
- type.
- The solution to this multi-view problem is neither straightforward nor
- is it well understood 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "akaho2006kernel"
-
-\end_inset
-
-.
- Multiple options have been explored to resolve this problem: combination
- of classifiers, canonical correlation analysis, post-probability blending,
- and multi-metric classification.
+ optical and radio) would be required in the process of properly defining
+ the variable star type.
  The computational needs of the algorithm have only been roughly studied,
  and a more through review is necessary in the context of the algorithm
  proposed and the needs of the astronomy community.
