@@ -12,3 +12,10 @@ identifying our stars of interest. The metric is tuned on a set of labeled eclip
 the Kepler survey, targeting particular systems exhibiting the O’Connell Effect. Our framework
 demonstrates favorable performance on Kepler EB data, taking a crucial step to prepare the way for
 large-scale data volumes from next generation telescopes such as LSST 
+
+
+The data are not included as part of this repository (as they are too big), 
+
+For LINEAR Data see https://drive.google.com/open?id=0B-hW-bQbm2J9QmhEQjBURjg2TGs
+
+For Kepler Data see https://drive.google.com/open?id=16hbI7HlWY4BmD6boygZYzuGpS8730cxP
