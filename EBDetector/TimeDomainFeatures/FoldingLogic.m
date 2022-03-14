@@ -42,7 +42,9 @@ for idx = 1:1:length(structReduct)
         
     else
         truePeriod = 10^(structReduct(idx).parameters(5)); % days
-        
+        if(isnan(truePeriod))
+            truePeriod
+        end
         structReduct(idx).truePeriodEst = structReduct(idx).parameters(5);
         
         x = getPhaseTimes(structReduct(idx).timeSeries(:,1),...
@@ -72,7 +74,8 @@ for idx = 1:1:length(structReduct)
         xUnique = x(ia);
         scaleUnique = scale(ia);
 
-        xSet = 0:0.0005:1;    
+        xSet = 0:0.0005:1;   
+   
         vq = spline(xUnique,scaleUnique,xSet);
 
         structReduct(idx).singleSet = vq;

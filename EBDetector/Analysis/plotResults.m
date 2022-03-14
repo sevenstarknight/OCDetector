@@ -33,21 +33,6 @@ grid on
 xlabel('Phase')
 ylabel('Min-Max Amplitude')
 
-
-
-figure()
-for i = 1:1:6
-    subplot(3,2,i)
-    plot(structTmp(i).foldedData(:,1), ...
-            structTmp(i).foldedData(:,2), '.k')
-    grid on
-    xlim([0,1])
-    ylim([0,1])
-    xlabel('Phase')
-    ylabel('Min-Max Amplitude')
-    title(structTmp(i).name)
-end
-
 %%
 
 [~, Xedges, Yedges] = histcounts2(...
@@ -70,7 +55,7 @@ for idx = 1:1:length(structTmp)
 end
 
 %% Clustering
-intClusters = 6;
+intClusters = 8;
  [structPsi, fltExpectation] = K_Means_Matrix(fltDataIn, intClusters); 
  
  structCluster = struct('group',[]);
@@ -141,6 +126,8 @@ for idx = 1:1:intClusters
     xlabel('Phase')
     ylabel('Min-Max Amplitude')
 end
+
+
 
 
 

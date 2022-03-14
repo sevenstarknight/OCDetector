@@ -1,8 +1,24 @@
-structTmp = structReduct;
+structTmp = structReductSOI;
 
 idxA = 3;
 idxB = 6;
 idxC = 70;
+
+phaseValues = structTmp(idxA).foldedData(:,1);
+ampValues = structTmp(idxA).foldedData(:,2);
+[~, location] = min(ampValues);
+phaseValues = phaseValues - phaseValues(location);
+boolNeg = phaseValues < 0;
+phaseValues(boolNeg) = 1 + phaseValues(boolNeg); % Wrap
+
+plot(phaseValues, ...
+        ampValues, '.r')
+ylabel('Min-Max Amplitude')
+xlabel('Phase')
+grid on
+
+
+
 
 subplot(2,3,1)
 plot(structTmp(idxA).alignedData(:,1), ...

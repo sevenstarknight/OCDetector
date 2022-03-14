@@ -1,17 +1,17 @@
-clc 
-clear
-
-% https://www.mathworks.com/help/matlab/ref/matlab.io.fits.openfile.html
-
-folderPathNONSOI = strcat('/Users/kjohnston/Desktop/AstroData/Raw Kepler Data/NONSOI');
-
-folderPathSOI = strcat('/Users/kjohnston/Desktop/AstroData/Raw Kepler Data/SOI');
-
-[structReductNONSOI] = ReadInTSV(folderPathNONSOI);
-[structReductSOI] = ReadInTSV(folderPathSOI);
-
-folderPath = strcat('/Users/kjohnston/Desktop/AstroCode/EBDetector');
-cd(folderPath);
+% clc 
+% clear
+% 
+% % https://www.mathworks.com/help/matlab/ref/matlab.io.fits.openfile.html
+% 
+% folderPathNONSOI = strcat('/Users/kjohnston/Desktop/AstroData/Raw Kepler Data/NONSOI');
+% 
+% folderPathSOI = strcat('/Users/kjohnston/Desktop/AstroData/Raw Kepler Data/SOI');
+% 
+% [structReductNONSOI] = ReadInTSV(folderPathNONSOI);
+% [structReductSOI] = ReadInTSV(folderPathSOI);
+% 
+% folderPath = strcat('/Users/kjohnston/Desktop/AstroCode/EBDetector');
+% cd(folderPath);
 
 [structReductNONSOI] = ConstructNonVariableStars(50, structReductNONSOI);
 

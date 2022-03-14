@@ -1,4 +1,4 @@
-folderPathKnown = strcat('/Users/kjohnston/Desktop/AstroData/Raw Kepler Data/keplerebs');
+folderPathKnown = strcat('/Users/kjohnston/Google Drive/VarStarData/Raw Kepler Data/');
 [structReductUnknown] = ReadInLCDATA(folderPathKnown);
 
 tic

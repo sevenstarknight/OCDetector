@@ -1,4 +1,5 @@
 
+
 for i = 1:1:length(structMCReduct)
     a = split(structMCReduct(i).ID,'.');
     structMCReduct(i).name = a{1};
